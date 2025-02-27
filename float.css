@@ -1,0 +1,46 @@
+body {
+  margin: 0 auto;
+  width: 90%;
+  min-width: 940px;
+  background: #e2e2e2;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+.clear-both {
+  clear: both;
+}
+
+/*#region Các thuộc tính thêm cho dễ nhìn trong ví dụ ( không cần trong thực tế) */
+#left-body {
+  background: #fff;
+  height: 500px;
+  width: 78%;
+}
+#right-body {
+  background: #00ff90;
+  height: 500px;
+  width: 20%;
+}
+/*Thay thuộc tính float bằng display*/
+.inline-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.mainMenu{
+  background: #4f86f8;
+  border-radius: 30px;
+  padding: 15px;
+}
+.mainMenu a {
+  font-size: 20;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+  border-right: 1px solid #fff;
+}
